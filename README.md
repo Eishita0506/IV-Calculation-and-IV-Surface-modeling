@@ -55,7 +55,6 @@ The variation of IV with time to maturity is know as term structure.
 In normal market environment, IV tends to rise as time to maturity increases as there is more uncertainty over longer horizons giving rise to upward- sloping term structure known as contango. 
 ##### Backwardation
 During times of market stress or ahead of major events the term structure can flip with near-term optopns exhibiting higher IV and hence downward sloping structure known as backwardation is formed.
-- In our 
 ### Cubic Spline Interpolation
 To smooth the volatility smile, for each maturity, fitted a cubic spline to IV vs log-moneyness.The full implied volatility surface was constructed as:σ=f(k,T). The surface was visualized using 3D surface plot and contour map. While cubic spline interpolation provides a smooth and visually appealing representation of the implied volatility surface, its lack of arbitrage constraints, sensitivity to noisy data, and instability in sparse regions limit its applicability to descriptive analysis rather than robust pricing or risk management frameworks.
 ## Conclusion
