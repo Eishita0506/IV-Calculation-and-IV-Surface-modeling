@@ -25,7 +25,7 @@ May fail if:
 Algorithm
 - Initialize bounds
 - Choose: σlow​,σhigh​​
-- Compute midpoint: σmid​=2σlow​+σhigh​
+- Compute midpoint: σmid​=(σlow​+σhigh)/2​
 - Evaluate function: f(σmid​)
 - Update interval: If f(σlow​)⋅f(σmid​)<0, root lies in left half. Else: root lies in right half
 - Check convergence. Stop if:∣f(σmid​)∣<ϵ
